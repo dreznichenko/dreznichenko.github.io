@@ -1,0 +1,228 @@
+body {
+  font-family: 'Montserrat', sans-serif; /* применение шрифта к body */
+  background-color: hsl(215, 46%, 93%);
+  padding: 20px; /*  внутренний отступ со всех сторон */
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  margin: 0px;
+}
+
+.main-container {
+  background-color: #ffffff;
+  display: flex;
+}
+
+.image {
+  width: 370px; /* width - ширина */
+  height: 354px; /* height - высота */
+}
+
+.contacts-title {
+  color: #ffffff; /* цвет текста */
+  font-size: 22px; /* размер шрифта */
+  font-weight: 700; /* жирность шрифта  от 100 до 900, с шагом 100 */
+  line-height: 24px; /* отступ между строками*/
+  text-align: left; /* выравнивание текста слева */
+  margin-top: 40px; /* отступ между блоками отступ сверху */
+  margin-bottom: 15px; /* отступ между блоками отступ сверху */
+}
+
+.contacts-info-container {
+  color: #ffffff; /* цвет текста */
+  font-size: 14px; /* размер шрифта */
+  font-weight: 400; /* жирность шрифта  от 100 до 900, с шагом 100 */
+  line-height: 24px; /* отступ между строками*/
+  text-align: left; /* выравнивание текста слева */
+  padding-left: 40px; /* внутренний отступ слева */
+}
+
+.contacts-number-email {
+  margin-left: 10px;
+  color: #606873; /* цвет текста */
+}
+
+a {
+  color: #606873; /* цвет текста */
+}
+
+.skills-title {
+  color: #ffffff; /* цвет текста */
+  font-size: 22px; /* размер шрифта */
+  font-weight: 700; /* жирность шрифта  от 100 до 900, с шагом 100 */
+  line-height: 24px; /* отступ между строками*/
+  text-align: left; /* выравнивание текста слева */
+  padding-left: 20px; /* внутренний отступ слева */
+  margin-top: 40px; /* отступ между блоками отступ сверху */
+  margin-bottom: 15px; /* отступ между блоками отступ сверху */
+}
+
+.tech-skills-container {
+  color: #a1a6ac; /* цвет текста */
+  font-size: 14px; /* размер шрифта */
+  font-weight: 400; /* жирность шрифта  от 100 до 900, с шагом 100 */
+  line-height: 24px; /* отступ между строками*/
+  text-align: left; /* выравнивание текста слева */
+  margin-left: 20px; /* внутренний отступ слева */
+}
+
+.soft-skills-container {
+  color: #a1a6ac; /* цвет текста */
+  font-size: 14px; /* размер шрифта */
+  font-weight: 400; /* жирность шрифта  от 100 до 900, с шагом 100 */
+  line-height: 24px; /* отступ между строками*/
+  text-align: left; /* выравнивание текста слева */
+  margin-left: 20px; /* внутренний отступ слева */
+}
+
+.skills-info {
+  color: #eb650c; /* цвет текста */
+}
+
+.skills-name {
+  color: #ffffff; /* цвет текста */
+}
+
+aside {
+  width: 370px; /* width - ширина */
+  background: #1e2939; /* цвет фона */
+  box-sizing: border-box; /* оставляет размер блока неизменным */
+  display: flex; /* выравнивание блока, по умолчанию - горизонтально */
+  flex-direction: column; /* выравнивание блока вертикально */
+  padding-top: 40px; /* внутренний отступ сверху */
+  padding-bottom: 40px; /* внутренний отступ снизу */
+}
+
+.companies {
+  width: 550px;
+}
+
+.about-me-container {
+  width: 600px;
+  padding-top: 110px; /* внутренний отступ сверху */
+  padding-bottom: 110px; /* внутренний отступ снизу */
+  padding-left: 90px; /* внутренний отступ слева */
+}
+
+.title-profession {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+}
+
+.my-name {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 90px;
+  text-align: left;
+}
+
+.about-me {
+  width: 400px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 65px;
+}
+
+.projects-title {
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.projects {
+  color: #606873;
+}
+
+.project-link {
+  font-weight: 700;
+  color: black;
+}
+
+.project-text {
+  font-weight: 400;
+  text-align: left;
+  color: #606873;
+}
+
+.project-list {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+  margin-bottom: 50px;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.work-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.work-container {
+  padding-bottom: 25px;
+}
+
+.work {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+}
+
+.company-name {
+  color: #ff6b08;
+}
+
+.period-of-time {
+  color: #d1d1d1;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.work-list {
+  color: #595959;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: 24px;
+  text-align: left;
+  padding: 0;
+  margin-left: 20px;
+}
+
+.padding-education {
+  padding: 0;
+  margin-left: 20px;
+}
+
+.education {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.place-of-study-text {
+  color: #ff6b08;
+}
+
+.earn {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: left;
+  padding-top: 10px;
+}
